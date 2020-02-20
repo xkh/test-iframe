@@ -585,7 +585,7 @@
 		isWindows = /windows/i.test(navigator.userAgent),
 		isMobile = !isWindows && ("ontouchstart" in window || "ontouchstart" in document.createElement("div") ||
 			isWechatDevtools),
-		capDomain = "https://ssl.captcha.qq.com";
+		capDomain = "https://xkh.github.io/test-iframe";
 	capDomain || (capDomain = scriptDomain);
 	var grayscaleFrameJs = "/tcaptcha-frame.a62693b0.js",
 		grayscaleThreshold = 1,
