@@ -1854,7 +1854,7 @@
 						top: e.posSC.top,
 						left: e.posSC.left
 					};
-					!e.isPop || e.opts.sdkOpts && e.opts.sdkOpts.width || (o.border = "1px solid #e5e5e5"), u && (o.position =
+					!e.isPop || e.opts.sdkOpts && e.opts.sdkOpts.width || (o.border = "0"), u && (o.position =
 						"absolute"), r.CSS(n, o), e.opts.sdkOpts && e.opts.sdkOpts.width && r.setPopPosition(n, e.sizeSC.width, e.sizeSC
 						.height, e.opts.sdkOpts);
 					var s = r.createElement("div");
