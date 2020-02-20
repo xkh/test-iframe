@@ -587,7 +587,7 @@
 			isWechatDevtools),
 		capDomain = "https://ssl.captcha.qq.com";
 	capDomain || (capDomain = scriptDomain);
-	var grayscaleFrameJs = "https://xkh.github.io/test-iframe/tcaptcha-frame.a62693b0.js",
+	var grayscaleFrameJs = "",
 		grayscaleThreshold = 1,
 		grayscaleAppId = ["123", "2100049389", "2100049390", "2046103261", "2070173641", "2060075756"],
 		grayscaleProb = Math.random(),
