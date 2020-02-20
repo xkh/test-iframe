@@ -8,8 +8,10 @@
     <button id="test">看看员工在说什么</button><br/><br/><br/>
     员工们：<br/> 
     <iframe src="b.html" width="500" height="300" id="iframe"></iframe> 
+    <iframe src="https://ssl.captcha.qq.com/cap_union_new_show?aid=2091774026&accver=1&showtype=popup&ua=TW96aWxsYS81LjAgKGlQaG9uZTsgQ1BVIGlQaG9uZSBPUyAxMV8wIGxpa2UgTWFjIE9TIFgpIEFwcGxlV2ViS2l0LzYwNC4xLjM4IChLSFRNTCwgbGlrZSBHZWNrbykgVmVyc2lvbi8xMS4wIE1vYmlsZS8xNUEzNzIgU2FmYXJpLzYwNC4x&noheader=0&fb=1&ptcz=a444ec347be371677cf5466b4ed3152cd9be192c44ec617a0bc3c2e8d1f89093&fpinfo=fpsig%3D110003F2A3864EE600FD2BD62B1F201345574F1C21E296D1A7481C147212DB6775CA4FB8E6BB6ABADE9C41D5836EC15A8092&tkid=3556498092&grayscale=1&clientype=1&subsid=2&sess=i9OELFqZ9ptyqG-FwMCNiFGy6zjYTACIfZZxV5-pB2RMEoyujUA83ediataUAShvJLggGrTPN6tNlViNfYBdGZwF4imP0L9jTvAGa6yZVFhiNgwjyUzvFK4psy8p5hR6lG8BOAOgtPtGz7ZK4FdWaR2ksGTL6tq8da5e7hT2dpmu-9Cz2Ru1f03rIlPbi820n0CJAadS3pogbX1cDHiaMw**&fwidth=0&sid=6795476027814559185&forcestyle=undefined&wxLang=&tcScale=1&uid=&cap_cd=&rnd=902416&TCapIframeLoadTime=undefined&prehandleLoadTime=52&createIframeStart=1582195057074" width="500" height="300" id="iframe2"></iframe> 
     <script> document.getElementById("test").onclick = function(){ 
-　　　　alert(document.getElementById("iframe").contentWindow.document.getElementById("message").value); 
+		console.log('1...',document.getElementById("iframe").contentWindow.document.getElementById("message").value)
+		console.log('2...',document.getElementById("iframe2").contentWindow.document.getElementById("feedback"))
 　　}
     </script> 
 </body> 
